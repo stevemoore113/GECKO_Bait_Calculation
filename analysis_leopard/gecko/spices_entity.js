@@ -1,25 +1,25 @@
 class Gecko_Codominance_Entity {
   constructor() {
-    this.snow = 0;
-    this.lemonForst = 0;
-    this.supersnow = 0;
-    this.superlemon = 0;
+    this.snow = 'S';
+    this.lemonForst = 'L';
+    this.supersnow = 'DS';
+    this.superlemon = 'DL';
   }
 
 };
 class Gecko_Recessive_Entity {
   constructor() {
-    this.tremp = 0;
-    this.bell = 0;
-    this.rainWater = 0;
-    this.giant = 0;
+    this.tremp = 'T';
+    this.bell = 'B';
+    this.rainWater = 'R';
+    this.giant = 'G';
   }
 };
 class Gecko_Breeding_Entity {
   constructor() {
-    this.blackNight = 0;
-    this.Tangerine = 0;
-    this.cross = 0;
+    this.blackNight = false;
+    this.Tangerine = false;
+    this.cross = false;
   }
 };
 class Gecko_Dominant_Entity {
